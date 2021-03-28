@@ -20,27 +20,36 @@
     <title>Frontend Mentor | Single Price Grid Component</title>
 </head>
 <body>
-<main>
+<main class="center">
     <div class="card">
-        <div class="pitch">
-            <div>Join our community</div>
-            <div>30-day, hassle-free money back guarantee</div>
-            <div>Gain access to our full library of tutorials along with expert
+        <section class="pitch">
+            <div class="f-cyan bold">Join our community</div>
+            <div class="f-yellow bold"
+                 style="font-size: 18px">30-day, hassle-free money back
+                guarantee
+            </div>
+            <p class="f-blue-gray f-body">Gain access to our full library of
+                tutorials along with expert
                 code reviews.
                 Perfect for any developers who are serious about honing their
                 skills.
+            </p>
+        </section>
+        <section class="promo">
+            <div class="bold">Monthly Subscription</div>
+            <div>
+                <div>
+                    <span class="bold price">&dollar;29</span><span> per month</span>
+                </div>
+                <p>Full access for less than &dollar;1 a day</p>
             </div>
-        </div>
-        <div class="promo">
-            <div>Monthly Subscription</div>
-            <div>&dollar;29 per month</div>
-            <div>Full access for less than &dollar;1 a day</div>
+
             <button>Sign Up</button>
-        </div>
-        <div class="details">
+        </section>
+        <section class="details">
             <div>Why Us</div>
             <div>
-                <ol>
+                <ul>
                     <li>Tutorials by industry experts</li>
                     <li>Peer &amp; expert code review</li>
                     <li>Coding exercises</li>
@@ -48,9 +57,9 @@
                     <li>Community forum</li>
                     <li>Flashcard decks</li>
                     <li>New videos every week</li>
-                </ol>
+                </ul>
             </div>
-        </div>
+        </section>
     </div>
 </main>
 
@@ -59,7 +68,7 @@
     <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
                         target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="#">bloom305</a>.
     </p>
 </footer>
 </body>
