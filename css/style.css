@@ -1,0 +1,40 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow-bright: hsl(71, 73%, 54%);
+    --gray-light: hsl(204, 43%, 93%);
+    --blue-grayish: hsl(218, 22%, 67%);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+}
+
+.f-body {
+    font-size: 16px;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+footer {
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
