@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://github.com/bloom305/FEM_single-price-grid)
+- Live Site URL: [here](https://bloom305.github.io/FEM_single-price-grid/)
 
 ## My process
 
